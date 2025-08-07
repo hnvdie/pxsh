@@ -1,4 +1,4 @@
-
+![pxsh](.images/Screenshot_2025-08-08-02-21-58-288_com.termux~2.jpg)
 **pxsh** is a minimalist CLI tool to run shell commands on multiple remote servers over SSH. It supports complex commands (`|`, `&&`, `;`) and provides quick server availability checks.
 
 ---
