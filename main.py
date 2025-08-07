@@ -4,10 +4,8 @@ import sys
 import argparse
 import subprocess
 
-# Kosong untuk publikasi
-hostConfig = []
+hostConfig = [] # add your server list
 
-# Simple ANSI color
 GREEN = "\033[92m"
 RESET = "\033[0m"
 
@@ -81,4 +79,3 @@ def main():
 if __name__ == "__main__":
     banner()
     main()
-Commander
