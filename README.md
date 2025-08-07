@@ -30,10 +30,4 @@ python3 shell.py --server user@host1,user@host2 --active
 Commands are sent only to remote hosts — never run locally. SSH handles execution securely.
 
 
----
-
-📄 License
-
-MIT © 2025 HnvDie
-
----
+💌 Have Fun
