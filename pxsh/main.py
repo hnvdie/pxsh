@@ -41,6 +41,7 @@ def check_active(host):
         return False
 
 def main():
+    banner()
     parser = argparse.ArgumentParser(
         description="🔐 Pxsh — Execute or ping multiple remote servers via SSH."
     )
@@ -77,5 +78,4 @@ def main():
             print(f"[+] {host} status: {status_str}")
 
 if __name__ == "__main__":
-    banner()
     main()
