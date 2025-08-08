@@ -12,15 +12,22 @@
 
 ---
 
+## installation 
+for quick install 
+
+```bash
+pip3 install .
+```
+
 ## ⚙️ Usage
 
 ### Run command on multiple servers
 ```bash
-python3 shell.py --server user@host1,user@host2 --send "uptime && whoami"
+pxsh --server user@host1,user@host2 --send "uptime && whoami"
 ```
 Check if servers are online
 ```bash
-python3 shell.py --server user@host1,user@host2 --active
+pxsh --server user@host1,user@host2 --active
 ```
 
 ---
